@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9098086630533444197}
   - component: {fileID: 7603043980017029455}
   - component: {fileID: 7603043980017029454}
+  - component: {fileID: 7356876453948047561}
   m_Layer: 0
   m_Name: puddle2
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7296422821960520624}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -11.570817, y: 0.33, z: -37.01}
-  m_LocalScale: {x: 120, y: 150, z: 100}
+  m_LocalScale: {x: 120, y: 150, z: 400}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -111,3 +112,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   gameEnding: {fileID: 0}
+--- !u!64 &7356876453948047561
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296422821960520624}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: 6416302070336371891, guid: c0143e6fa61bb694c82261b5bf5cf72e, type: 3}

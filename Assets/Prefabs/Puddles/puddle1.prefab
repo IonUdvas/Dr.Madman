@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 9207958790708235541}
   - component: {fileID: 5217110306762162864}
   - component: {fileID: 8035003820713342586}
-  - component: {fileID: 8665916096405667671}
   - component: {fileID: 8665916096405667670}
+  - component: {fileID: 1809844905093345165}
   m_Layer: 0
   m_Name: puddle1
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8665916096405667671
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8395533340025411503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.016781433
-  m_Height: 0.026450312
-  m_Direction: 1
-  m_Center: {x: -0.0008372515, y: 0.0020251547, z: 0.00013125969}
 --- !u!114 &8665916096405667670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   gameEnding: {fileID: 0}
+--- !u!64 &1809844905093345165
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395533340025411503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: -462981019419857548, guid: a1d19413fbbed5d45b923ad1d9b7abd4, type: 3}
